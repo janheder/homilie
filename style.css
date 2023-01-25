@@ -975,7 +975,8 @@ section.hero .btn-white {
     display: block;
     width: 100%;
     text-align: center;
-    margin-top: -28px
+    margin-top: -28px;
+    display: none;
 }
 
 .hero-scroll img {
@@ -1050,7 +1051,7 @@ section.intro-text .intro-text .btn {
 }
 
 section.homilie {
-    background: #fafafa
+    background: white;
 }
 
 section.homilie .homilie-single {
@@ -1325,9 +1326,10 @@ footer .col {
 }
 
 footer h5 {
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 500;
     color: #1A1C28;
+    text-transform: uppercase;
 }
 
 footer a,footer p {
@@ -1893,7 +1895,9 @@ article.form p {
     width: auto;
     margin-right: 10px
 }
-
+.dailyWord{
+    background: #FAFAFC;
+}
 .dailyWord .col-12 {
     margin-bottom: 20px
 }
@@ -2097,4 +2101,9 @@ section.homilie .homilie-single img {
 
 nav.navbar .navbar-nav .nav-link {
     text-align: center
+}
+
+
+.news-img{
+    display: none;
 }
