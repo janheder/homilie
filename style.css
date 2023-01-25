@@ -141,9 +141,9 @@ main section {
 }
 
 .btn {
-    font-size: 1.6rem;
-    min-height: 5.8rem;
-    padding: 1.8rem 3.5rem 1.6rem;
+    font-size: 1.5rem;
+    min-height: 5.2rem;
+    padding: 1.8rem 2.8rem 1.8rem;
     background: #b58347;
     color: #fff;
     border-radius: 3px;
@@ -160,7 +160,7 @@ main section {
 
 .btn-ghost::before,.user-icon::before {
     bottom: 0;
-    border: 2px solid #222;
+    border: 2px solid #1A1C28;
     right: 0
 }
 
@@ -172,21 +172,21 @@ main section {
 
 .btn-white {
     background: #fff;
-    color: #222
+    color: #1A1C28
 }
 
 .btn-white:active,.btn-white:focus,.btn-white:hover {
-    color: #222;
+    color: #1A1C28;
     background: #fafafa
 }
 
 .btn-ghost {
     background: 0 0;
-    color: #222
+    color: #1A1C28
 }
 
 .btn-ghost:active,.btn-ghost:focus,.btn-ghost:hover {
-    background: #222;
+    background: #1A1C28;
     color: #fff
 }
 
@@ -202,7 +202,7 @@ main section {
 
 .btn-ghost-white:active,.btn-ghost-white:focus,.btn-ghost-white:hover {
     background: #fff;
-    color: #222
+    color: #1A1C28
 }
 
 .btn-ghost-white::before {
@@ -224,7 +224,7 @@ main section {
 
 .btn-arrow:active,.btn-arrow:focus,.btn-arrow:hover {
     background: 0 0;
-    color: #222
+    color: #1A1C28
 }
 
 .btn-arrow::after {
@@ -496,7 +496,7 @@ nav.navbar .nav-item {
     width: 65%;
     background: #fff;
     z-index: 9;
-    border: 2px solid #222;
+    border: 2px solid #1A1C28;
     border-radius: 999px
 }
 
@@ -593,7 +593,7 @@ nav.navbar .dropdown.show button {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     background: #fff;
-    color: #222
+    color: #1A1C28
 }
 
 #dark-overlay,.search-wrap-responsive {
@@ -601,7 +601,7 @@ nav.navbar .dropdown.show button {
 }
 
 nav.navbar.scroll {
-    background: #222
+    background: #1A1C28
 }
 
 @media screen and (min-width: 1201px) {
@@ -630,7 +630,7 @@ nav.navbar.scroll {
 
 @media screen and (max-width: 991px) {
     body.active,nav.navbar .navbar-nav .nav-link:active,nav.navbar .navbar-nav .nav-link:focus,nav.navbar .navbar-nav .nav-link:hover {
-        background:#222
+        background:#1A1C28
     }
 
     body.active {
@@ -695,7 +695,7 @@ nav.navbar.scroll {
         transition: .3s transform ease;
         overflow-y: auto;
         overflow-x: hidden;
-        background: #222
+        background: #1A1C28
     }
 
     nav.navbar .navbar-nav .nav-link {
@@ -847,7 +847,7 @@ nav.navbar.scroll+.search-form-wrap .search-form {
     top: 0;
     left: 0;
     right: 0;
-    background: #222;
+    background: #1A1C28;
     padding: 90px 0 2rem
 }
 
@@ -930,7 +930,7 @@ section.hero h1,section.hero p {
 }
 
 section.hero {
-    background: center center #222;
+    background: center center #1A1C28;
     background-size: cover;
     color: #fff;
     height: calc(100vh - 80px);
@@ -1066,7 +1066,7 @@ section.homilie .homilie-single img {
 
 section.homilie .homilie-single p,section.homilie .homilie-single p a {
     margin-top: 1rem;
-    color: #222;
+    color: #1A1C28;
     font-size: 1.8rem
 }
 
@@ -1077,7 +1077,7 @@ section.homilie .homilie-single .homilie-single-float {
 section.homilie .homilie-single .homilie-single-sub a {
     font-size: 13px;
     font-family: Verdana;
-    color: #222
+    color: #1A1C28
 }
 
 section.homilie .read-more-wrap {
@@ -1218,7 +1218,7 @@ section.news .news-single {
     margin-bottom: 3rem;
     display: block;
     position: relative;
-    color: #222;
+    color: #1A1C28;
     z-index: 2
 }
 
@@ -1270,7 +1270,7 @@ section.news .news-single span {
 
 section.news .news-single span:active,section.news .news-single span:focus,section.news .news-single span:hover {
     text-decoration: underline;
-    color: #222
+    color: #1A1C28
 }
 
 section.news .btn {
@@ -1279,7 +1279,7 @@ section.news .btn {
 }
 
 section.cta {
-    background: center center #222;
+    background: center center #1A1C28;
     background-size: cover
 }
 
@@ -1297,9 +1297,7 @@ section.cta h2 b {
 section.cta p {
     color: #fff;
     font-weight: 400;
-    font-family: Lora,sans-serif;
-    font-style: italic;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 3rem;
     margin: 2rem 0 6rem
 }
@@ -1329,11 +1327,11 @@ footer .col {
 footer h5 {
     font-size: 2rem;
     font-weight: 700;
-    color: #222
+    color: #1A1C28;
 }
 
 footer a,footer p {
-    color: #222;
+    color: #1A1C28;
     display: block;
     font-size: 1.4rem;
     font-weight: 500;
@@ -1386,7 +1384,7 @@ section.copyright .copyright-pull {
 
 .page-heading {
     padding: 20rem 0;
-    background: #222;
+    background: #1A1C28;
     position: relative
 }
 
@@ -1461,7 +1459,7 @@ section.copyright .copyright-pull {
 }
 
 .page-heading-small {
-    background: #222;
+    background: #1A1C28;
     height: 100px;
     padding: 0
 }
@@ -1470,7 +1468,7 @@ section.copyright .copyright-pull {
     position: fixed;
     top: 0;
     left: 0;
-    background: #222;
+    background: #1A1C28;
     width: 100%;
     height: 80px;
     z-index: 2
@@ -1788,7 +1786,7 @@ section.breadcrumb-wrap {
 }
 
 .article-pagination a:active,.article-pagination a:focus,.article-pagination a:hover,article .article-pagination a:active,article .article-pagination a:focus,article .article-pagination a:hover {
-    color: #222;
+    color: #1A1C28;
     background: #fafafa
 }
 
@@ -1817,7 +1815,7 @@ article.post .novinky-header i {
 }
 
 .alert {
-    background: #222;
+    background: #1A1C28;
     text-align: center;
     margin-bottom: 3rem;
     border-radius: 3px;
@@ -1833,7 +1831,7 @@ article.post .novinky-header i {
 }
 
 .article-pagination a,article .article-pagination a {
-    color: #222
+    color: #1A1C28
 }
 
 article.post .article-credit span {
@@ -2051,7 +2049,7 @@ section.homilie .homilie-single img {
 
 .news .homilie-single p {
     font-size: 15px;
-    color: #222;
+    color: #1A1C28;
     margin-bottom: 10px;
     text-align: justify
 }
