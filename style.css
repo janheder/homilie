@@ -930,7 +930,8 @@ section.hero h1,section.hero p {
 }
 
 section.hero {
-    background: center center #1A1C28;
+    background-color: #1A1C28;
+    background-image: ("https://janheder.github.io/homilie/hero.png");
     background-size: cover;
     color: #fff;
     height: calc(100vh - 80px);
@@ -980,7 +981,8 @@ section.hero .btn-white {
 }
 
 .hero-scroll img {
-    height: 80px
+    height: 80px;
+    display: none;
 }
 
 @media screen and (max-width: 991px) {
