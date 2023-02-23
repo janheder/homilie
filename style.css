@@ -931,7 +931,7 @@ section.hero h1,section.hero p {
 
 section.hero {
     background-color: #1A1C28;
-    background-image: ("https://janheder.github.io/homilie/hero.png");
+    background-image: url("https://janheder.github.io/homilie/hero.png");
     background-size: cover;
     color: #fff;
     height: calc(100vh - 80px);
@@ -953,13 +953,11 @@ section.hero {
 }
 
 section.hero h1 {
-    font-size: 5.8rem;
+    font-size: 48px;
     margin: 0
 }
 
 section.hero p {
-    font-family: Lora,sans-serif;
-    font-style: italic;
     font-size: 2rem;
     margin: 4rem 0 6rem
 }
@@ -971,7 +969,9 @@ section.hero .btn {
 section.hero .btn-white {
     margin-right: 2rem
 }
-
+section.hero img{
+    display: none;
+}
 .hero-scroll {
     display: block;
     width: 100%;
@@ -1038,10 +1038,9 @@ section.intro-text .intro-text h3 {
     font-size: 3.6rem;
 }
 
-section.intro-text .intro-text p {
+section.intro-text .intro-text {
     font-size: 1.8rem;
-    color: #414141;
-    font-family: Georgia,sans-serif;
+    color: #686D7D;
     font-weight: 400;
     margin: 3rem 0 6rem;
     line-height: 3rem
@@ -1192,7 +1191,8 @@ section.quote .quote-wrap p {
 }
 
 section.news {
-    background: #fafafa
+    background: #fafafa;
+    display: none;
 }
 
 section.news .articles-wrap article {
@@ -1332,6 +1332,19 @@ footer h5 {
     font-weight: 500;
     color: #1A1C28;
     text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h5::after{
+    content: "";
+    height: 4px;
+    width: 140px;
+    display: flex;
+    background: rgba(206, 147, 77, 0.2);
 }
 
 footer a,footer p {
