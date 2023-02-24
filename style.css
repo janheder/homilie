@@ -1343,8 +1343,10 @@ footer h5::after{
     content: "";
     height: 4px;
     width: 140px;
-    display: flex;
+    display: inline-flex;
     background: rgba(206, 147, 77, 0.2);
+    position: absolute;
+    bottom: 0;
 }
 
 footer a,footer p {
