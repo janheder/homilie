@@ -1107,10 +1107,13 @@ body>section.homilie.full .col-6:nth-child(1n+13) {
 }
 
 section.quote {
-    background: center center #43312e;
-    background-size: cover
+    background-color: #182365;
+    background-image: url("quote.png");
+    background-size: cover;
 }
-
+section.quote img.post__featured-image{
+  display: none;
+}
 section.quote .quote-wrap h4 {
     color: #fff;
     font-family: Georgia,sans-serif;
