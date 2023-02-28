@@ -1945,24 +1945,27 @@ article.form p {
 }
 
 .dailyWord__single h3 {
-    text-align: center;
+    text-align: left;
     font-weight: 600;
     font-size: 16px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .dailyWord__wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-top: 1px solid #b58347;
-    border-bottom: 1px solid #b58347;
-    padding: 10px 0
+    border-top: 5px solid #EEEEF4;
+    border-bottom: 5px solid #EEEEF4;
+    padding: 15px 0
 }
 
 .dailyWord__wrapItem {
     flex-basis: 50%;
-    text-align: center
+    text-align: center;
+    display: flex;
+
 }
 
 .dailyWord__wrapItem.-w100 {
@@ -1970,9 +1973,9 @@ article.form p {
 }
 
 .dailyWord__label {
-    font-size: 13px;
-    display: block;
-    font-weight: 500
+    font-size: 15px;
+    font-weight: 500;
+    width: 50%;
 }
 
 .dailyWord__wrapItem.-w100 .dailyWord__label {
@@ -1980,7 +1983,8 @@ article.form p {
 }
 
 .dailyWord__link {
-    font-size: 13px
+    font-size: 15px;
+    width: 50%;
 }
 
 .dailyWord__wrapHom {
