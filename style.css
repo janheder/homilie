@@ -1043,6 +1043,7 @@ section.intro-text .col-12 {
 
 section.intro-text .intro-text h3 {
     font-size: 3.6rem;
+    color: #1A1C28;
 }
 
 section.intro-text .intro-text {
@@ -1129,15 +1130,16 @@ section.quote .quote-wrap h4 {
     max-width: 62rem;
     margin: 0 auto;
     line-height: 3.6rem;
-    position: relative
+    position: relative;
+    font-weight: 400;
 }
 
 section.quote .quote-wrap h4::after,section.quote .quote-wrap h4::before {
     font-family: PT sans;
     font-weight: 400;
     font-size: 30rem;
-    opacity: .1;
-    color: #fff;
+    color: #CE934D;
+    opacity: 1;
     position: absolute
 }
 
@@ -1145,22 +1147,15 @@ section.quote .quote-wrap h4::before {
     content: "“";
     top: 100%;
     left: 0;
-    -moz-transform: translate(-100%,-50%);
-    -o-transform: translate(-100%,-50%);
-    -ms-transform: translate(-100%,-50%);
-    -webkit-transform: translate(-100%,-50%);
-    transform: translate(-100%,-50%)
+    transform: translate(-100%,-50%);
+
 }
 
 section.quote .quote-wrap h4::after {
     content: "”";
     top: 100%;
     right: 0;
-    -moz-transform: translate(100%,-50%);
-    -o-transform: translate(100%,-50%);
-    -ms-transform: translate(100%,-50%);
-    -webkit-transform: translate(100%,-50%);
-    transform: translate(100%,-50%)
+    transform: translate(100%,-50%);
 }
 
 .page-heading-small::after,.page-heading::after,section.news .news-single::after {
@@ -1931,7 +1926,7 @@ article.form p {
 
 .dailyWord__title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.6rem;
     margin-bottom: 4rem
 }
 
@@ -2139,5 +2134,12 @@ nav.navbar .navbar-nav .nav-link {
 
 
 .news-img{
+    display: none;
+}
+.cta{
+    background-image: url("cta-bg.png");
+    object-fit: cover;
+}
+.cta .post__featured-image{
     display: none;
 }
