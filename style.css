@@ -141,10 +141,10 @@ main section {
 }
 
 .btn {
-    font-size: 1.5px;
-    min-height: 1;
+    font-size: 15px;
+    min-height: 52px;
     padding: 0 28px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #CE934D;
@@ -1976,6 +1976,7 @@ article.form p {
     font-size: 15px;
     font-weight: 500;
     width: 50%;
+    text-align: left;
 }
 
 .dailyWord__wrapItem.-w100 .dailyWord__label {
