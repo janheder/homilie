@@ -1055,6 +1055,7 @@ section.homilie .homilie-single p,section.homilie .homilie-single p a {
     color: #1A1C28;
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: left;
 }
 
 section.homilie .homilie-single .homilie-single-float {
@@ -2121,4 +2122,10 @@ nav.navbar .navbar-nav .nav-link {
 section.homilie .read-more-wrap {
 
     color: white;
+}
+
+@media (min-width: 1300px){
+    .container {
+        max-width: 1340px;
+    }
 }
