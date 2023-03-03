@@ -2129,3 +2129,28 @@ section.homilie .read-more-wrap {
         max-width: 1340px;
     }
 }
+
+
+.slider-nav{
+    visibility: visible;
+    color: black;
+    filter: none;
+  }
+  .slider-nav::after{
+    background-color: black;
+    box-shadow: none;
+  }
+  .dailyWord .slider-container{
+    padding-bottom: 10px;
+  }
+  
+  @media screen and (max-width: 991px){
+    .slider-container{
+      display: flex;
+          align-items: flex-start;
+    }
+    .slider-container> div{
+      width: 260px;
+      flex-shrink: 0;
+    }
+  }
