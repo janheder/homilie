@@ -1037,7 +1037,7 @@ section.homilie .homilie-single {
     text-align: center;
     display: block;
     margin: 2rem 0;
-    padding: 10px 20px;
+    padding: 14px 20px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -2154,3 +2154,41 @@ section.homilie .read-more-wrap {
       flex-shrink: 0;
     }
   }
+  body {
+    display: flex;
+    flex-direction: column;
+}
+section.quote{
+  display: none;
+}
+section.hero ~ section.quote{
+  order: 1;
+  display: flex;
+}
+section.hero ~ section.homilie{
+  order: 2;
+}
+section.hero ~ section.cta{
+  order: 3;
+}
+section.hero ~ footer{
+  order: 4;
+}
+section.hero ~ .copyright{
+  order: 5;
+}
+.page-heading {
+    background: #182365;
+}
+.page-heading .post__featured-image{
+  opacity: 0.4;
+}
+nav.navbar.scroll{
+    background: #182365;
+}
+section.intro-text .intro-text h3{
+  margin-bottom: 40px;
+}
+section.intro-text .intro-text .btn{
+  margin-top: 40px;
+}
