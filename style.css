@@ -2130,7 +2130,6 @@ section.homilie .read-more-wrap {
     }
 }
 
-
 .slider-nav{
     visibility: visible;
     color: black;
@@ -2148,9 +2147,10 @@ section.homilie .read-more-wrap {
     .slider-container{
       display: flex;
           align-items: flex-start;
+          flex-direction: column;
     }
     .slider-container> div{
-      width: 260px;
+      width: 100%;
       flex-shrink: 0;
     }
   }
