@@ -1,3 +1,7 @@
+
+
+
+
 .btn,.section-heading h2,a {
     font-weight: 500
 }
@@ -27,7 +31,7 @@ a,body {
 }
 
 body {
-    font-family: "Euclid Circular A",sans-serif;
+    font-family: "Cerebri Sans",sans-serif;
     color: #1A1C28;
     overflow-x: hidden;
     position: relative;
@@ -2192,3 +2196,158 @@ section.intro-text .intro-text h3{
 section.intro-text .intro-text .btn{
   margin-top: 40px;
 }
+
+section.hero{
+    height: auto;
+        min-height: 0;
+    padding: 300px 0 200px 0;
+  }
+  .dailyWord__single.w-6 .dailyWord__wrapHom{
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .dailyWord__wrap{
+    margin-bottom: 20px;
+  }
+  
+  section.quote .quote-wrap h4::before{
+  content: none;
+  }
+  section.quote .quote-wrap h4::after {
+  content: none;
+  }
+  
+  section.quote{
+    padding: 0;
+  }
+  section.quote .container{
+    padding: 120px 0;
+    position: relative;
+  }
+  section.quote .container::before,
+  section.quote .container::after 
+  {
+      font-family: P22 Mackinac Pro;
+      font-weight: 400;
+      font-size: 300px;
+      color: #CE934D;
+      opacity: 1;
+      position: absolute;
+    line-height: 1;
+  }
+  section.quote .container::before{
+    content: "“";
+    top: -90px;
+  }
+  section.quote .container::after{
+    content: "”";
+    right: 0;
+    bottom: -55%
+  }
+  
+  section.hero .btn.btn-ghost-white::before{
+    border: 0;
+  }
+  section.hero .btn.btn-ghost-white{
+    background: rgba(255,255,255,0.2);
+    
+  }
+  
+  section.hero p{
+    font-size: 17px;
+    opacity: 0.8;
+    max-width: 600px;
+    line-height: 2;
+  }
+  section.hero h1{
+      max-width: 600px;
+      line-height: 1.5;
+  }
+  
+  section.intro-text{
+        background: #FAFAFC;
+    border-bottom: 2px solid white;
+  }
+  .dailyWord{
+    padding-bottom: 150px;
+  }
+  .page-heading .post__featured-image {
+      opacity: 0.3;
+      mix-blend-mode: luminosity;
+    filter: brightness(2);
+  }
+  .page-heading{
+    padding: 200px 0 160px;
+  }
+  
+  section.cta .btn-white{
+    background: #CE934D;
+    color: white;
+  }
+  section.cta .btn-ghost-white::before{
+    border: 0;
+  }
+  section.cta .btn-ghost-white{
+    background: rgba(255,255,255,0.2);
+  }
+  section.cta .btn-ghost-white:hover{
+    color: white;
+      background: rgba(255,255,255,0.5);
+  }
+  section.cta h2{
+    font-size: 36px;
+    width: 580px;
+  }
+  section.cta p{
+    max-width: 500px;
+    opacity: 0.8;
+    margin-bottom: 40px;
+  }
+  
+  main {
+      background: #F6F6FB;
+  
+  }
+  main article{
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  nav.navbar, .page-heading-small{
+    background: #182365;
+  }
+  
+  .intro-img img{
+    mix-blend-mode: multiply;
+  }
+  .dailyWord__wrap,
+  .dailyWord__wrap a{
+    font-size: 15px;
+    text-align:left;
+    width: 100%;
+  }
+  .dailyWord__wrapHom{
+    gap: 10px;
+  }
+  .dailyWord__linkHom{
+    background: rgba(24, 35, 101, 0.05);
+  border-radius: 4px;
+  padding: 8px 10px;
+    display: inline-flex;
+    line-height: 1.5;
+  
+  }
+  .dailyWord__label{
+    opacity: 0.8;
+    font-weight: 400;
+  }
+  .dailyWord__linkHom span{
+        font-size: 14px;
+    font-weight: 400;
+  }
+  
+  
+  .dailyWord__single h3{
+    font-family: "Cerebri sans";
+  }
+  
+  
+  
