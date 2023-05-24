@@ -1,5 +1,51 @@
+@font-face {
+    font-family: "Cerebri Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/CerebriSans-Regular.woff2") format("woff2"),
+         url("../fonts/CerebriSans-Regular.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cerebri Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/CerebriSans-Italic.woff2") format("woff2"),
+         url("../fonts/CerebriSans-Italic.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cerebri Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/CerebriSans-Medium.woff2") format("woff2"),
+         url("../fonts/CerebriSans-Medium.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Cerebri Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/CerebriSans-Bold.woff2") format("woff2"),
+         url("../fonts/CerebriSans-Bold.woff") format("woff");
+    font-display: swap;
+}
 
 
+@font-face {
+    font-family: "P22 Mackinac Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/P22MackinacPro-Book.woff2") format("woff2");
+    font-display: swap;
+}
+@font-face {
+    font-family: "P22 Mackinac Pro";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/P22MackinacPro-Bold.woff2") format("woff2");
+    font-display: swap;
+}
 
 
 .btn,.section-heading h2,a {
@@ -22,7 +68,7 @@ html {
 
 @media screen and (max-width: 1200px) {
     html {
-        font-size:8px
+        font-size:9px
     }
 }
 
@@ -674,7 +720,7 @@ nav.navbar.scroll {
         transition: .3s transform ease;
         overflow-y: auto;
         overflow-x: hidden;
-        background: #1A1C28
+        background: #182365;
     }
 
     nav.navbar .navbar-nav .nav-link {
@@ -1346,7 +1392,7 @@ footer b,footer p {
 
 footer b {
     line-height: 3rem;
-    font-size: 1.4rem
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -1911,7 +1957,7 @@ article.form p {
 .dailyWord__single {
     background: #fff;
     border: 0;
-    padding: 20px;
+    padding: 40px 20px;
     height: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
@@ -2242,7 +2288,7 @@ section.hero{
   section.quote .container::after{
     content: "”";
     right: 0;
-    bottom: -55%
+    bottom: -50%;
   }
   
   section.hero .btn.btn-ghost-white::before{
@@ -2296,7 +2342,7 @@ section.hero{
   }
   section.cta h2{
     font-size: 36px;
-    width: 580px;
+    max-width: 580px;
   }
   section.cta p{
     max-width: 500px;
@@ -2311,13 +2357,11 @@ section.hero{
   main article{
      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
   }
-  nav.navbar, .page-heading-small{
+ .page-heading-small{
     background: #182365;
   }
   
-  .intro-img img{
-    mix-blend-mode: multiply;
-  }
+
   .dailyWord__wrap,
   .dailyWord__wrap a{
     font-size: 15px;
@@ -2350,4 +2394,138 @@ section.hero{
   }
   
   
+  .dailyWord__linkHom img {
+    height: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 991px) {
+    section.hero {
+        padding: 120px 0 80px;
+    }
+    section {
+        padding: 8rem 0;
+    }
+}
+
+
+.dailyWord__linkHom img{
+    margin-right: 10px;
+  }
+  section.homilie .homilie-single{
+    margin: 10px 0;;
+  }
+  section.homilie .homilie-single a{
+    flex-direction: row; 
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center;
+  }
+  section.homilie .homilie-single a img{
+    margin-right: 15px;
+  }
+  
+  main section.homilie{
+    padding: 30px 0;
+  }
+  
+  .homilie.--column .row {
+      flex-direction:row;
+  }
+  .homilie.--column .homilie-single img{
+    height: auto;
+    
+    width: 48px;
+  }
+
+  .page-heading-small::after{
+    background: #182365;
+}
+.article-pagination .page-item.active, article .article-pagination .page-item.active{
+background:transparent;
+}
+.article-pagination .page-item.active a, article .article-pagination .page-item.active a{
+background: #182365;
+border: 0;
+
+  
+}
+
+.private-content .btn{
+font-family: "Cerebri sans";
+}
+.private-content .btn.btn-ghost.btn-small{
+background: white;
+}
+.private-content .btn.btn-ghost.btn-small:hover{
+background: #828BC0;
+}
+.private-content .btn.btn-ghost.btn-small::before{
+content: none;
+}
+.article-pagination a, article .article-pagination a{
+border: 0;
+background: #F3F4F7;
+}
+.article-pagination .pagination, article .article-pagination .pagination{
+gap: 5px;
+}
+
+@media screen and (max-width: 575px){
+.page-heading {
+  padding: 100px 0 60px;
+}
+}
+
+nav.navbar .btn.btn-search::before, nav.navbar .btn.btn-search.open::before{
+content: none;
+}
+nav.navbar .btn.btn-search, nav.navbar .btn.btn-search.open{
+background: rgba(255,255,255,.2);
+}
+
+section.homilie .homilie-single{
+padding: 8px  ;
+}
+section.homilie .homilie-single img{
+    width: 42px;
+}
+
+section.intro-text, .dailyWord{
+    background: #F5F5FB;
+  }
+
+
+  article.post .article-bottom a{
+    font-family: "Cerebri sans";
+    padding: 0 20px;
+  }
+  .private-content .btn{
+      padding: 0 20px;
+  }
+  .article-pagination .page-item.active a, article .article-pagination .page-item.active a,.article-pagination a, article .article-pagination a{
+    border-radius: 5px;
+  }
+  
+  .article-pagination .pagination, article .article-pagination .pagination{
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 1200px) {
+      html {
+          font-size:9px;
+      }
+  }
+  .page-heading {
+      padding: 120px 0 100px;
+  }
+  .page-heading h1 {
+      font-size: 4rem;
+  }
+  @media screen and (max-width: 768px){
+    .page-heading h1 {
+      font-size: 3rem;
+  }
+  }
   
