@@ -956,7 +956,7 @@ section.hero h1,section.hero p {
 
 section.hero {
     background-color: #1A1C28;
-    background-image: url("https://janheder.github.io/homilie/hero.png");
+    background-image: url("https://janheder.github.io/homilie/img/hero.png");
     background-size: cover;
     color: #fff;
     height: calc(100vh - 80px);
@@ -2585,6 +2585,10 @@ border-radius: 6px;
 .article-rating h4{
     
 }
+.article-rating .btn{
+    min-height: 46px;
+    padding: 0 15px;
+}
 .rate-star-wrap{
     display: flex;
     flex-grow: 1;
@@ -2647,3 +2651,25 @@ border-radius: 6px;
     min-height: 46px;
     margin-top: 20px;
 }
+
+
+.rating-box .rating-container {
+    direction: rtl !important;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .rating-box .rating-container label {
+    display: inline-block;
+
+    color: #d4d4d4;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 1;
+    transition: color 0.2s;
+  }
+  .rating-box .rating-container input {
+    display: none;
+  }
+  .rating-box .rating-container label:hover, .rating-box .rating-container label:hover ~ label, .rating-box .rating-container input:checked ~ label {
+    color: gold;
+  }

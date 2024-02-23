@@ -259,7 +259,7 @@ rel="stylesheet">
           </nav>
         </div>
         <div class="article-credit">
-          <span>Autor: <b> P. František Dancák | Archieparchia Presoviensis</b></span>
+          <span>Autor: <a href="#"><b> P. František Dancák | Archieparchia Presoviensis</b></a></span>
           <span>Zdroj: <b>© Slúžiť a pomáhať | Vydavateľstvo Petra | Prešov 1999</b></span>
           <span></span><span>
             Datum napsání:
@@ -287,11 +287,27 @@ rel="stylesheet">
                 </button>
               </div>
               <div class="modal-body">
-                <p>Modal body text goes here.</p>
+                <form action="#" method="post" id="ratingForm">
+                  <div class="rating-box">
+                    <p>Zvolte počet hvězdiček:</p>
+                    <div class="rating-container">
+                      <input type="radio" name="rating" value="5" id="star-5" required="">
+                      <label for="star-5">★</label>
+                      <input type="radio" name="rating" value="4" id="star-4" required="">
+                      <label for="star-4">★</label>
+                      <input type="radio" name="rating" value="3" id="star-3" required="">
+                      <label for="star-3">★</label>
+                      <input type="radio" name="rating" value="2" id="star-2" required="">
+                      <label for="star-2">★</label>
+                      <input type="radio" name="rating" value="1" id="star-1" required="">
+                      <label for="star-1">★                                </label>
+                    </div>
+                  </div>
+                </form>
               </div>
               <div class="modal-footer">
                 
-                <button type="button" class="btn btn-primary">Odeslat hodnocení</button>
+                <input type="submit"class="btn btn-primary" form="ratingForm" value="Odeslat hodnocení">
 
               </div>
             </div>
