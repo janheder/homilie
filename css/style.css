@@ -2529,3 +2529,47 @@ section.intro-text, .dailyWord{
   }
   }
   
+
+
+.intro-points{
+
+}
+.intro-points-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.intro-points-grid a{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border: 2px solid #F3F4F7;
+padding: 30px 0;
+border-radius: 6px;
+}
+.intro-points-grid a:hover{
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.intro-points-grid strong{
+    font-size: 40px;
+    color: #CE934D;
+}
+.intro-points-grid h4{
+    color: #1A1C28;
+}
+.intro-points-grid .btn{
+    min-height: 46px;
+    margin-top: 30px;
+    background: rgba(24, 35, 101, 0.05);
+    border: 0;
+    color: #1A1C28;
+}
+@media screen and (max-width: 768px){
+    .intro-points-grid{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+  }
+  
