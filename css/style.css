@@ -2610,26 +2610,33 @@ border-radius: 6px;
     background-image: url("../img/star-empty.svg"); 
 }
 
-
+.autor-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
 .autor-single{
     color: #1A1C28;
-    margin-bottom: 20px;
+    background: #f3f4f7;
 }
 .autor-single a{
     display: flex;
     color: #1A1C28;
-    background: #f3f4f7;
-    padding: 40px 20px;
+    padding: 20px 20px;
     gap: 20px;
+    height: 100%;
 }
 .autor-single  a:hover{
     text-decoration: none;
+}
+.autor-single date{
+    opacity: 0.7;
 }
 .autor-single-img{
     width: 50px;
     background: white;
     border-radius: 50%;
-    height: 100%;
+    height: 50px;
     padding: 12px;
     flex-shrink: 0;
 }
@@ -2640,6 +2647,7 @@ border-radius: 6px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
 }
 .autor-single-content p{
 
